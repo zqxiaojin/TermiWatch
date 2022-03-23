@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch40" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="20037" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch45"/>
     <dependencies>
         <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
     </dependencies>
     <customFonts key="customFonts">
         <array key="SF-Mono-Regular.otf">
@@ -19,7 +17,7 @@
             <objects>
                 <controller spacing="2" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TermiWatch_WatchKit_Extension">
                     <items>
-                        <group width="1" alignment="left" layout="vertical" spacing="2" id="6PL-bo-ZK7" userLabel="Terminal Group">
+                        <group width="1" alignment="left" verticalAlignment="center" layout="vertical" spacing="2" id="6PL-bo-ZK7" userLabel="Terminal Group">
                             <items>
                                 <label alignment="left" text="user@watch:~ $ now" textAlignment="left" id="bcc-Ix-MUn">
                                     <fontDescription key="font" name="SFMono-Regular" family="SF Mono" pointSize="14"/>
@@ -266,6 +264,7 @@
                     </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="12" y="84"/>
         </scene>
     </scenes>
 </document>
